@@ -6,6 +6,18 @@
     overflow: hidden;
 }
 
+@media (max-width: 768px) {
+    #app {
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+    }
+
+    aside {
+        display: none;
+    }
+}
+
 main {
     overflow: auto;
     padding: 4rem;
